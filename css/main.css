@@ -1,0 +1,60 @@
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+}
+
+body {
+  background: red;
+}
+
+.form__ul {
+  text-align: center;
+}
+
+.ul, .ul2 , .ul3{
+  width: 1000px;
+  height: 880px;
+  background-color: red;
+}
+
+.pop_li, .buy_li, .about_li {
+  list-style: none;
+  background-color: yellow;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.pop_p1, .about_p1, .buy_p {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.pop_p2 , .about_p2, .buy_pp{
+  color: darkred;
+  font-size: 15px;
+  text-align: center;
+}
+
+.pop_heading1,.pop_heading2, .about_h3 , .buy_h2{
+  color: blue;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.pop_btn, .about_btn {
+  width: 120px;
+  height: 40px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  margin-left: 100px;
+  cursor: pointer;
+}
